@@ -1,0 +1,22 @@
+.app {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cell {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+    margin: 10px auto;
+}
+
+table td {
+    border: 1px solid black;
+}
