@@ -23,7 +23,7 @@ export function fetchUsersWithThunk() {
     }
 }
 
-export function fetchUsers() {
+export function fetchUsersWithCustomMiddleWare() {
     return {
         type: FETCH_USERS,
         url: USERS_URL
